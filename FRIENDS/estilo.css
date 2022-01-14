@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Bebas+Neue&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Bebas+Neue&family=Oswald:wght@200&family=Righteous&display=swap');
+
+
+body{
+	background-color: #7E50D2;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.cabecalho{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 30px;
+	background-color: #311F52 ;
+	align-items: center;
+	
+}
+
+.cabecalho-imagem{
+
+	height: 25px;
+
+}
+
+.cabecalho-menu{
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.cabecalho-menu-itens{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 200;
+	color: #9F89C9 ;
+}
+
+.borda{
+	border-top: 1px solid #5E3C9E;
+	margin-bottom: 10px;
+}
+
+a:link, a:visited {
+	background-color: #7E50D2;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border-radius: 20px;
+}
+
+a:hover, a:active {
+	  background-color: #311F52;
+	  color: white}
+/*adicionar uma fonte da internet*/
+@font-face{
+	font-family: 'friends' ;
+	src: url('GABRWFFR.TTF') format('truetype');
+	font-weight: bold;
+	font-size: 10px;
+
+}
+.titulo1{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+	font-family: 'friends';
+	margin-bottom: 20PX;
+	background-color: #311F52;
+	color: white;
+}
+
+.titulo2{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 30px;
+	font-family: 'friends';
+	margin-bottom: 20PX;
+	background-color: #311F52;
+	color: white;
+}
+	
+.conteudo-geral{
+	width: 1200px;
+	align-items: center;
+	align-content: center;
+	margin-left: 40px;
+	}
+
+.conteudo-sessao-1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 30px;
+	margin-top: 5px;
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #5E3C9E ;
+	border-radius: 10px
+	
+
+}
+.conteudo-1-imagem{
+	height: 200px;
+}
+.conteudo-1-escrito{
+font-family: 'Be Vietnam Pro', sans-serif;
+color: white;
+text-align: justify;
+}
+
+.conteudo-sessao-2{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #5E3C9E ;
+	border-radius: 10px
+}
+
+.nomes-personagens{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+
+
+}

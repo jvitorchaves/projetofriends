@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Bebas+Neue&family=Oswald:wght@200&family=Righteous&display=swap');
+
+body{
+	background-color: #7E50D2;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.cabecalho{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 30px;
+	background-color: #311F52 ;
+	align-items: center;
+	
+}
+
+.cabecalho-imagem{
+
+	height: 25px;
+
+}
+
+.cabecalho-menu{
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.cabecalho-menu-itens{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 200;
+	color: #9F89C9 ;
+}
+
+.borda{
+	border-top: 1px solid #5E3C9E;
+	margin-bottom: 10px;
+}
+
+span>a:link, a:visited {
+	background-color: #7E50D2;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+span>a:hover, a:active {
+	  background-color: #311F52;
+	  color: white;
+
+	}
+section>a{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	}
+
+.logo{
+	background-color: #311F52;
+	text-decoration: none;
+	clear: both;
+
+
+}
+
+.mini-rodape{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-decoration: none;
+font-family: 'Bebas Neue', cursive;
+padding: 0px;
+text-decoration: none;
+font-size: 15px;
+border-radius: 0px;
+}
+.a1{
+
+ background-color: #311F52;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border-radius: 20px;
+	font-size: 16px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 200;
+}
+
+@font-face{
+	font-family: 'friends' ;
+	src: url('GABRWFFR.TTF') format('truetype');
+	font-weight: bold;
+	font-size: 10px;
+}
+.titulo1{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 0px;
+	font-family: 'friends';
+	margin-bottom: 20PX;
+	background-color: #311F52;
+	color: white;
+}
+.estilo-episodio{
+	background-color:#311F52 ;
+	padding: 20px;
+	border-radius: 10px;
+}
+.bd-ep{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 463px;
+	gap: 0px, 20px;
+
+}
+.titulo-ep{
+	margin-left: 147px;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 200;
+}
